@@ -1,8 +1,3 @@
----
-layout: default
-excerpt: Тяжела и неказиста жизнь простого программиста
----
-
 # Второй мозг
 
 Several years ago, Jekyll, the open source project that powers GitHub Pages, introduced shared themes. Since then, you have been able to use about a dozen themes to change the look and feel of your GitHub Pages site.
