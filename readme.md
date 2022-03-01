@@ -1,6 +1,5 @@
 ---
 layout: default
-lang: ru-RU
 excerpt: Тяжела и неказиста жизнь простого программиста
 ---
 
