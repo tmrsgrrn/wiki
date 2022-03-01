@@ -11,6 +11,15 @@
     <a href="/wiki/">home</a> <a href="/wiki/web/">web</a> <a href="/wiki/web/podcasts/">web/podcasts</a>
   </header>
   <body>
-    {{ content }}
+    <div class="body" style="display: flex;">
+    <div class="navigation" style="max-width: 200px;">
+        <a href="/wiki/">home</a> <a href="/wiki/web/">web</a> <a href="/wiki/web/Подкасты/">web/podcasts</a>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
   </body>
 </html>
+
+
