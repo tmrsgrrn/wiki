@@ -10,3 +10,8 @@ Replacing owner and name with the repository’s owner and name.
 And if you’re interested in making your Jekyll theme available to other users, simply follow the instructions for creating a Gem-based theme, and ensure the repository is public.
 
 For more information, see the Jekyll theme documentation or get in touch.
+
+{% for post in site %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.excerpt }}
+{% endfor %}
