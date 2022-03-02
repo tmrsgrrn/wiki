@@ -4,16 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}}{{ site.title | escape }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title • База знаний Тимура Суграрина }}{% else %}}{{ site.title • База знаний Тимура Суграрина }}{% endif %}</title>
     <meta name="description" content="Personal knowledge base">
     <link rel="stylesheet" href="/wiki/assets/main.css">
   </head>
+  
+  <header>
+    <nav>
+      <ul class="navigation">
+        <li><a class="nav-item" href="/">Home</a></li>
+        <li><a class="nav-item" href="/contents.md">Contents</a></li>
+      </ul>
+    </nav>
+  </header>
   
   <body>
     {{ content }}
   </body>
   
   <footer>
-    <p>Московский клуб, 2022</p>
+    <p>Knowledge on <a href="https://github.com/sugrarin/knowledge">GitHub</a>, 2022</p>
   </footer>
 </html>
