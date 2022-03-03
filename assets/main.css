@@ -69,12 +69,12 @@ h1 {
 }
 
 h2 {
- font-size: 22px;
+ font-size: 21px;
  line-height: 1.2;
 }
 
 h3 {
- font-size: 18px;
+ font-size: 17px;
  line-height: 1.2;
 }
 
@@ -176,5 +176,5 @@ li .nav-item {
 footer {
   color: var(--gray-text-color);
   font-size: 15px;
-  margin-top: var(--7md);
+  margin-top: var(--8md);
 }
