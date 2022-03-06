@@ -3,12 +3,12 @@
   --mono-font: ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
   --background-color: #ffffff;
-  --text-color: #24292F;
+  --text-color: #010101;
+  --gray-text-color: #57606A;
   --link-color: #0769DA;
   --link-visited-color: #5d9acf;
   --code-box-color: #EFF1F2;
   --line-color: #D0D7DE;
-  --gray-text-color: #57606A;
   
   --1md: 4px;
   --2md: 8px;
@@ -22,8 +22,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #23292F;
+    --background-color: #1c2125;
     --text-color: #E0E4E8;
+    --gray-text-color: #c4c4c4;
     --link-color: #93CCFF;
     --link-visited-color: #AB70C5;
     --code-box-color: #2A3037;
@@ -45,7 +46,7 @@ body {
   font-weight: normal;
   color: var(--text-color);
   background-color: var(--background-color);
-  margin: var(--7md) auto;
+  margin: var(--6md) 72px;
   max-width: 680px;
 }
 
@@ -99,7 +100,7 @@ ol, ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 img {
@@ -155,7 +156,7 @@ a:hover {
 }
 
 header {
-  margin-bottom: var(--4md);
+  margin-bottom: var(--6md);
 }
 
 .navigation {
@@ -170,7 +171,7 @@ header {
 
 li .nav-item {
   color: var(--gray-text-color);
-  margin-right: var(--3md);
+  margin-right: var(--4md);
 }
 
 footer {
