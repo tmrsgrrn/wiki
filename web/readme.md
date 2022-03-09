@@ -1,4 +1,4 @@
-![](attachments/dog@2x.jpg)
+![](files/dog@2x.jpg)
 
 # Вики Тимура Суграрина
 
