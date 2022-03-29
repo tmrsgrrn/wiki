@@ -2,6 +2,8 @@
 
 A couple of days ago I launched my newest project - Notes.cx, which is a small tool came to mind while I was in the car with my wife. At the time, I was working (and still am) on Diary.by, another project of mine, so I asked my wife what would be the chances that she would find use in something like Diary.by.
 
+[[web]]
+
 <img src="https://docs.joinmastodon.org/elephant.svg" align="right" width="20%" />
 
 ## Второго уровня
